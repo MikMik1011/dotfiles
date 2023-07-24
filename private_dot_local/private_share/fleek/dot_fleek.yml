@@ -1,0 +1,62 @@
+aliases:
+    fleeks: cd ~/.local/share/fleek
+bling: none
+blocklist: []
+byo_git: false
+ejected: false
+flakedir: .local/share/fleek
+git:
+    autocommit: true
+    autopull: true
+    autopush: true
+    enabled: true
+min_version: 0.8.4
+name: Fleek Configuration
+overlays: {}
+packages:
+    - helix
+    - fish
+    - exa
+    - bat
+    - ripgrep
+    - chezmoi
+    - micro
+    - distrobox
+    - openssh
+    - openssl
+    - fzf
+    - yq
+    - neovim
+    - linuxPackages.acpi_call
+    - gamescope
+    - lm_sensors
+    - libdbusmenu
+    - protontricks
+    - tmux
+    - betterdiscordctl
+    - hostctl
+    - htop
+    - p7zip
+    - android-tools
+    - jdk17
+    - nushell
+    - atuin
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
+programs:
+    - dircolors
+shell: bash
+systems:
+    - arch: x86_64
+      hostname: dylanblue
+      os: linux
+      username: mikmik
+track: ""
+unfree: true
+users:
+    - email: mikmikyt1011@gmail.com
+      name: Misa Stefanovic
+      ssh_private_key_file: ~/.ssh/id_ed25519
+      ssh_public_key_file: ~/.ssh/id_ed25519.pub
+      username: mikmik
