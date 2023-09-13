@@ -1,5 +1,5 @@
 if status is-interactive
 
-	source /var/home/mikmik/.config/aliases/general
-	source /var/home/mikmik/.config/aliases/safety
+	source /home/mikmik/.config/aliases/general
+	source /home/mikmik/.config/aliases/safety
 end
